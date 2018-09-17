@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 10px 0;
+  color: gray;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 12pt;
+}
+
+h1 {
+  font-style: italic;
+}
+
+#menu > li > a {
+  margin: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: gray;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.post {
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  height: auto;
+  padding: 15px 0;
+}
+
+.red {
+  color: red;
+}
+
+.details {
+  border-right: 2px solid #f2f2f2;
+}
+
+@media only screen and (max-width: 767px) {
+  .details {
+    border-right: none;
+  }
+}
+
+.row {
+  border-bottom: 2px solid #f2f2f2;
+}
